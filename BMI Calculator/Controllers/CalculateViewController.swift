@@ -20,9 +20,6 @@ class CalculateViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    override func viewDidLayoutSubviews() {
-        
-    }
 
     @IBAction func heightSlider(_ sender: UISlider) {
         let height = String(format: "%0.2f", sender.value)
